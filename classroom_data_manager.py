@@ -53,7 +53,7 @@ def main():
         print(f"ID: {s["id"]} | Name: {s["name"]} | Score: {s["score"]}")       #Print all students
 
     elif choice == "3":       #3. Display all scores
-
+    
         if len(s_list) == 0:
             
             print("No students found.")
@@ -79,7 +79,7 @@ def main():
 
         return       #Exit
 
-    if input("Continue? (Type 'y' to proceed) ").strip().lower() == 'y':       #Continue
+    if input("Continue? (Type 'y' to proceed) ").strip().lower() == 'y':       #Ask to continue
 
         main()
 
